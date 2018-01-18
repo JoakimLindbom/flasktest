@@ -13,7 +13,7 @@ def test():
     return "Testing!"
 
 @application.route("/probe")
-def test():
+def probe():
     return "I'm alive\nSince: {}".format(start_time)
 
 
